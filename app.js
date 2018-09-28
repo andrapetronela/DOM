@@ -1,9 +1,4 @@
-const name = 'John';
-const age = 31;
-const job = 'Web Developer';
-const city = 'Miami';
-let html;
-let el;
+
 let data = [
   {
     "id": 1,
@@ -237,19 +232,6 @@ let data = [
   }
 ]
 
-// Without template strings (es5)
-//html = '<ul><li>Name: ' + name + '</li><li>Age: ' + age + ' </li><li>Job: '+ job+ ' </li><li>City: '+ city +' </li></ul>';
-//
-//html = '<ul>' +
-//       '<li>Name: ' + name + '</li>' +
-//       '<li>Age: ' + age + '</li>' +
-//       '<li>Job: ' + job + '</li>' +
-//       '<li>City: ' + city + '</li>' +
-//       '</ul>';
-
-function hello(){
-  return 'hello';
-}
 
  /*
     1. create element
@@ -299,24 +281,3 @@ for (let i = 0; i < data.length; i++) {
 
 
 
-
-
-
-// With template strings (es6)
-//html = `
-//  <ol>
-//    <li>Name: ${name}</li>
-//    <li>Age: ${age}</li>
-//    <li>Job: ${job}</li>
-//    <li>City: ${city}</li>
-//    <li>${2 + 2}</li>
-//    <li>${hello()}</li>
-//    <li>${age > 30 ? 'Over 30' : 'Under 30'}</li>
-//    <br/><br/>
-//
-//
-//  </ol>
-//    
-//`;
-//
-//document.body.innerHTML = html;
