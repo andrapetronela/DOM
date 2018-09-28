@@ -8,6 +8,10 @@ body {
     background-color: rgba(153, 153, 153, 0.13);
 }
 
+#date {
+    padding: 5vw 0 0 5vw;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -15,5 +19,16 @@ body {
     margin: 5vw;
 }
 .card {
-    padding: 2rem;
+    padding: 1rem 2rem;
+    margin: 1vw;
+    background-color: #c3b3b0;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all .4s;
+    backface-visibility: hidden;
+}
+
+.card:hover {
+    color: #fff;
+    background-color: #958e8d;
 }

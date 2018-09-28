@@ -1,4 +1,17 @@
+// DATE
 
+
+const today = new Date();
+
+let day = today.getDay();
+let month = today.getMonth();
+let year = today.getFullYear();
+const weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+
+let date = document.getElementById("date");
+date.textContent = weekDays[day] + ", " + day + " " + months[month] + " " + year;
 let data = [
   {
     "id": 1,
