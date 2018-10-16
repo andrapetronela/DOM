@@ -6,6 +6,7 @@
 
 body {
     background-color: rgba(153, 153, 153, 0.13);
+    font-family: sans-serif;
 }
 
 #date {
@@ -21,14 +22,16 @@ body {
 .card {
     padding: 1rem 2rem;
     margin: 1vw;
-    background-color: #c3b3b0;
+    background-color: #005761;
+    color: #fff;
     border-radius: 2rem;
     cursor: pointer;
     transition: all .4s;
     backface-visibility: hidden;
+    line-height: 1.7;
 }
 
 .card:hover {
-    color: #fff;
-    background-color: #958e8d;
+    color: #000;
+    background-color: #00AABD;
 }
